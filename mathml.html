@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Oblig 2 - Andreas</title>
+		<link href="stylesheetarticle.css" rel="stylesheet" />
+		<script>window.MathJax = { MathML: { extensions: ["mml3.js", "content-mathml.js"]}};</script>
+		<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=MML_HTMLorMML"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>MathML</h1>
+				<h3><a href="index.html">(Tilbake til forsiden)</a></h3>
+			</header>
+			<article>
+				<p>
+					MathML eller "Mathematical Markup Language", er et matematisk markup-language. Det blir blant annet brukt for å
+					kunne vise ulike typer matematiske formler og problemer på nett. I 2015 ble MathML en del av HTML. Man kan dele MathML i
+					to separate deler, "Presentation" og "Content". </p><p>Presentation forteller oss om hvordan ting blir vist frem.
+					Denne delen er bygget opp av "tokens", som sier hvordan hvert element i formelen skal plaseres i forhold til
+					de andre elementene i formelen. Content, på den andre sien, er delen som fokuserer mer på hva det matematiske utrykket faktisk betyr.</p><p>
+					I "Content"-delen er det ikke MathML som forteller oss hvordan utrykket skal se ut, men hver browser bestemmer hvordan det
+					skal vises frem. Dette vil dermed føre til at det vil se litt forskjellig ut i ulike typer browsere.
+				</p> <hr />
+
+				<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<matrix>
+					<matrixrow>
+						<cn> 0 </cn> <cn> 1 </cn> <cn> 0 </cn>
+				    </matrixrow>
+				    <matrixrow>
+					    <cn> 0 </cn> <cn> 0 </cn> <cn> 1 </cn>
+				    </matrixrow>
+				    <matrixrow>
+					    <cn> 1 </cn> <cn> 0 </cn> <cn> 0 </cn>
+				    </matrixrow>
+				</matrix>
+				</math>
+
+				<math>
+					<mrow>
+					<msup>
+						<mfenced>
+							<mrow>
+								<mi>a</mi>
+								<mo>+</mo>
+								<mi>b</mi>
+							</mrow>
+						</mfenced>
+						<mn>2</mn>
+					</msup>
+					</mrow>
+				</math>
+
+				<hr />
+			</article>
+
+			<footer>
+				<a href="omdennesiden.html">OM DENNE SIDEN</a>
+			</footer>
+		</div>
+	</body>
+</html>

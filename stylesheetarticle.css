@@ -1,0 +1,152 @@
+@import{
+url('normalize.css')
+}
+
+@font-face{
+	font-family: Rye;
+	src: url(rye.ttf);
+}
+
+@font-face{
+	font-family: Quicksand;
+	src: url(quicksand.ttf);
+}
+
+body * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+header, footer, article, aside, nav, div, table, .structure-box {
+	display: block;
+	overflow: hidden;
+}
+
+.wrapper{
+	width: 100%;
+	max-width: 800px;
+	margin: 0px auto;
+	background: #C38D9E;
+	border: 1px solid black;
+	border-radius: 30px 30px 30px 30px;
+}
+
+header{
+	background: salmon;
+	float: left;
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	font-family: Rye;
+	border: 1px solid black;
+}
+
+main{
+	width:100%;
+}
+
+.planlegging{
+	width: 47.5%;
+	background: #347E84;
+	float: left;
+	padding: 5px;
+	margin: 5px;
+}
+
+#git{
+	width: 50%;
+	float: right;
+	margin: 5px;
+}
+
+img{
+	width: 200px;
+	float: right;
+}
+
+#front{
+	margin-bottom: 15px;
+}
+
+article{
+	width: 100%;
+	float: left;
+}
+
+table{
+	width: 99%;
+	float: left;
+	margin: 5px;
+	background: #FFFFFF;
+}
+
+tr:nth-child(even) {
+    background: #dddddd;
+}
+
+table, th, td {
+	border-collapse: collapse;
+}
+th, td {
+	border: 1px solid black;
+	padding: 5px;
+ }
+
+th{
+	font-size: 25px;
+}
+
+footer{
+	background: salmon;
+	float: left;
+	width: 100%;
+	padding: 5px;
+	margin-top: 5px;
+	height: 45px;
+	text-align: center;
+	border: 1px solid black;
+	font-size: 25px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+a:hover{
+	text-shadow: 2px 2px 4px #000000;
+	color: white;
+}
+
+body{
+	background-image: url("bg.jpg");
+	background-size: cover;
+}
+
+p{
+	font-family: Quicksand;
+}
+
+h1{
+	font-family: Rye;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	color: white;
+}
+
+h2{
+	font-family: Rye;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	color: white;
+	font-size: 20px;
+}
+
+h3{
+	font-family: Rye;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	color: white;
+	font-size: 16px;
+}
